@@ -1,0 +1,34 @@
+{
+	"auto_id_class": true,
+	"color_scheme": "Packages/Theme - Aqua/Color Schemes/Monokai Aqua.tmTheme",
+	"detect_slow_plugins": false,
+	"font_size": 10.0,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Git",
+		"Vintage",
+		"CoffeeCompile",
+		"Terminal",
+		"Todo.txt Syntax",
+		"Git Gutter",
+		"JsMinifier",
+		"sublime-BuildSwitcher",
+		"AAAPackageDev",
+		"ZenCoding",
+		"SFTP",
+		"CoffeeScript",
+		"SyncedSideBar",
+		"SublimeTODO",
+		"Markdown Preview",
+		"HTML2Haml",
+		"HtmlTidy",
+		"CSSLint",
+		"kriswill-sublime-text-jsbeautifier",
+		"iTodo",
+		"Live CSS",
+		"CSSTidy"
+	],
+	"theme": "Soda Light.sublime-theme",
+	"word_wrap": "false"
+}
