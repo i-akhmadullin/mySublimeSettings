@@ -1,7 +1,7 @@
 {
 	"auto_id_class": true,
 	"caret_style": "phase",
-	"color_scheme": "Packages/Theme - Aqua/Color Schemes/Monokai Aqua.tmTheme",
+	// "color_scheme": "Packages/Theme - Aqua/Color Schemes/Monokai Aqua.tmTheme",
 	"detect_slow_plugins": false,
 	"draw_indent_guides": true,
 	"draw_white_space": "all",
@@ -10,7 +10,7 @@
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 10.0,
+	"font_size": 12.0,
 	"highlight_line": true,
 	"ignored_packages":
 	[
@@ -35,7 +35,7 @@
 		"kriswill-sublime-text-jsbeautifier",
 		"iTodo",
 		"Live CSS",
-		"CSSTidy"
+		"CSSTidy",
 		"CSSLint",
 		"iTodo",
 		"CSSTidy",
