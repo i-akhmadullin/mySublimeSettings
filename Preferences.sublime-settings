@@ -1,7 +1,15 @@
 {
 	"auto_id_class": true,
+	"caret_style": "phase",
 	"color_scheme": "Packages/Theme - Aqua/Color Schemes/Monokai Aqua.tmTheme",
 	"detect_slow_plugins": false,
+	"draw_indent_guides": true,
+	"draw_white_space": "all",
+	"fallback_encoding": "Cyrillic (Windows 1251)",
+	"font_options":
+	[
+		"subpixel_antialias"
+	],
 	"font_size": 10.0,
 	"highlight_line": true,
 	"ignored_packages":
@@ -28,7 +36,20 @@
 		"iTodo",
 		"Live CSS",
 		"CSSTidy"
+		"CSSLint",
+		"iTodo",
+		"CSSTidy",
+		"SyncedSideBar",
+		"CoffeeScript",
+		"Todo.txt Syntax",
+		"LESS-build"
 	],
+	"indent_guide_options":
+	[
+		"draw_active"
+	],
+	"save_on_focus_lost": false,
+	"tab_size": 4,
 	"theme": "Soda Light.sublime-theme",
 	"word_wrap": "false"
 }
