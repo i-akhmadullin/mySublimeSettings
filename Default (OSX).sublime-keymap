@@ -1,5 +1,6 @@
 [
 	{ "keys": ["f1"], "command": "toggle_side_bar" },
+	{ "keys": ["f2"], "command": "side_bar_rename" },
 	{ "keys": ["ctrl+shift+alt+o"], "command": "open_in_browser" },
 	// { "keys": ["ctrl+shift+alt+o"], "command": "side_bar_open_in_browser" },
 	{ "keys": ["ctrl+shift+alt+r"], "command": "side_bar_reveal" },
@@ -30,6 +31,13 @@
 	{ "keys": ["f19"], "command": "set_layout",
 		"args": {
 			"cols": [0.0, 0.66, 1.0],
+			"rows": [0.0, 0.8, 1.0],
+			"cells": [[0, 0, 1, 1], [1, 0, 2, 1], [0, 1, 2, 2]]
+		}
+	},
+	{ "keys": ["shift+f19"], "command": "set_layout",
+		"args": {
+			"cols": [0.0, 0.33, 1.0],
 			"rows": [0.0, 0.8, 1.0],
 			"cells": [[0, 0, 1, 1], [1, 0, 2, 1], [0, 1, 2, 2]]
 		}
