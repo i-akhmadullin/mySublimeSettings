@@ -1,5 +1,7 @@
 {
+	// Emmet <div .> -> <div class="|">
 	"auto_id_class": true,
+
 	"caret_style": "phase",
 	"color_scheme": "Packages/Theme - Aqua/Color Schemes/Monokai Aqua.tmTheme",
 	"detect_slow_plugins": false,

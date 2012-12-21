@@ -1,5 +1,6 @@
 [
 	{ "keys": ["f1"], "command": "toggle_side_bar" },
+	{ "keys": ["f2"], "command": "side_bar_rename" },
 	{ "keys": ["ctrl+shift+alt+o"], "command": "open_in_browser" },
 	// { "keys": ["ctrl+shift+alt+o"], "command": "side_bar_open_in_browser" },
 	{ "keys": ["ctrl+shift+alt+r"], "command": "side_bar_reveal" },
