@@ -21,6 +21,13 @@
       // Define globals exposed by Node.js.
       "node": true,
 
+      // Custom globals.
+      "predef"        : [
+          "Modernizr",
+          "FB",
+          "VK"
+      ],
+
       /*
        * ENFORCING OPTIONS
        * =================

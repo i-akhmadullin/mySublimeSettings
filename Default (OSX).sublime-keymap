@@ -88,5 +88,9 @@
 		"args": {"action": "encode_decode_data_url"},
 		"command": "run_emmet_action",
 		"context": [{"key": "emmet_action_enabled.encode_decode_data_url"}]
-	}
+	},
+
+	{ "keys": ["ctrl+alt+r", "ctrl+alt+r"], "command": "reload_themes" },
+	{ "keys": ["ctrl+alt+c", "ctrl+alt+c"], "command": "cycle_themes", "args": {"d": 1} },
+	{ "keys": ["ctrl+alt+0", "ctrl+alt+0"], "command": "switch_theme", "args": { "t": "Default.sublime-theme" } }
 ]
