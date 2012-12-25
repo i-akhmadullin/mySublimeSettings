@@ -6,6 +6,7 @@
 	{ "keys": ["ctrl+shift+alt+f3"], "command": "title_case" },
 	{ "keys": ["ctrl+shift+alt+f4"], "command": "swap_case" },
 	{ "keys": ["ctrl+shift+`"], "command": "reopen_last_file" },
+
 	{ "keys": ["f16"], "command": "set_layout",
 		"args": {
 			"cols": [0.0, 1.0],
@@ -34,32 +35,39 @@
 			"cells": [[0, 0, 1, 1], [1, 0, 2, 1], [0, 1, 2, 2]]
 		}
 	},
+
 	{ "keys": ["alt+1"], "command": "select_by_index", "args": { "index": 0 } },
+
 	{ "keys": ["ctrl+shift+alt+f"], "command": "reindent" },
 	{ "keys": ["ctrl+s"], "command": "save" },
+
+	{ "keys": ["ctrl+shift+alt+f"], "command": "reindent" },
+	{ "keys": ["ctrl+shift+f2"], "command": "side_bar_rename" },
+	{ "keys": ["ctrl+shift+f12"], "command": "toggle_minimap" },
+
 	{ "keys": ["alt+="], "command": "scroll_lines", "args": {"amount": 5.0} },
 	{ "keys": ["alt+-"], "command": "scroll_lines", "args": {"amount": -5.0} },
 	{ "keys": ["alt+down"], "command": "run_macro_file", "args": {"file": "Packages/User/5rowsdown.sublime-macro"} },
 	{ "keys": ["alt+up"], "command": "run_macro_file", "args": {"file": "Packages/User/5rowsup.sublime-macro"} },
 
 	{
-		"keys": [ "shift+super+right" ],
+		"keys": [ "ctrl+shift+f12" ],
 		"args": { "action": "select_next_item" },
 		"command": "run_emmet_action",
 		"context": [{ "key": "emmet_action_enabled.select_next_item" }]
 	},
 	{
-		"keys": [ "shift+super+left" ],
+		"keys": [ "ctrl+shift+f11" ],
 		"args": { "action": "select_previous_item" },
 		"command": "run_emmet_action",
 		"context": [{ "key": "emmet_action_enabled.select_previous_item" }]
 	},
-	{ "keys": [ "shift+super+pageup" ],
+	{ "keys": [ "ctrl+alt+shift+up" ],
 		"args": { "action": "match_pair_outward" }, 
 		"command": "run_emmet_action", 
 		"context": [{ "key": "emmet_action_enabled.match_pair_outward" }]
 	},
-	{ "keys": [ "shift+super+pagedown" ],
+	{ "keys": [ "ctrl+alt+shift+down" ],
 		"args": { "action": "match_pair_inward" }, 
 		"command": "run_emmet_action",
 		"context": [{ "key": "emmet_action_enabled.match_pair_inward" }]
