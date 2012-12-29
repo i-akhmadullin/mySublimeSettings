@@ -1,16 +1,16 @@
 {
 	"auto_id_class": true,
 	"caret_style": "phase",
-	"color_scheme": "Packages/Theme - Aqua/Color Schemes/Monokai Aqua.tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 	"detect_slow_plugins": false,
 	"draw_indent_guides": true,
 	"draw_white_space": "all",
 	"fallback_encoding": "Cyrillic (Windows 1251)",
 	"font_options":
 	[
-		"subpixel_antialias"
+		"no_bold"
 	],
-	"font_size": 10.0,
+	"font_size": 12.0,
 	"highlight_line": true,
 	"ignored_packages":
 	[
@@ -44,6 +44,6 @@
 	],
 	"save_on_focus_lost": false,
 	"tab_size": 4,
-	"theme": "Soda Light.sublime-theme",
+	"theme": "Phoenix Dark.sublime-theme",
 	"word_wrap": "false"
 }

@@ -1,8 +1,12 @@
 [
 	{ "keys": ["f1"], "command": "toggle_side_bar" },
+	{ "keys": ["shift+f1"], "command": "toggle_minimap" },
+	{ "keys": ["ctrl+shift+f2"], "command": "side_bar_rename" },
 	{ "keys": ["ctrl+shift+alt+o"], "command": "open_in_browser" },
 	// { "keys": ["ctrl+shift+alt+o"], "command": "side_bar_open_in_browser" },
 	{ "keys": ["ctrl+shift+alt+r"], "command": "side_bar_reveal" },
+	{ "keys": ["ctrl+shift+alt+f1"], "command": "upper_case" },
+	{ "keys": ["ctrl+shift+alt+f2"], "command": "lower_case" },
 	{ "keys": ["ctrl+shift+alt+f3"], "command": "title_case" },
 	{ "keys": ["ctrl+shift+alt+f4"], "command": "swap_case" },
 	{ "keys": ["ctrl+shift+`"], "command": "reopen_last_file" },
@@ -12,6 +16,13 @@
 			"cols": [0.0, 1.0],
 			"rows": [0.0, 1.0],
 			"cells": [[0, 0, 1, 1]]
+		}
+	},
+	{ "keys": ["shift+f16"], "command": "set_layout",
+		"args": {
+			"cols": [0.0, 0.5, 1.0],
+			"rows": [0.0, 1.0],
+			"cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
 		}
 	},
 	{ "keys": ["f17"], "command": "set_layout",
@@ -35,6 +46,13 @@
 			"cells": [[0, 0, 1, 1], [1, 0, 2, 1], [0, 1, 2, 2]]
 		}
 	},
+	{ "keys": ["shift+f19"], "command": "set_layout",
+		"args": {
+			"cols": [0.0, 0.33, 1.0],
+			"rows": [0.0, 0.8, 1.0],
+			"cells": [[0, 0, 1, 1], [1, 0, 2, 1], [0, 1, 2, 2]]
+		}
+	},
 
 	{ "keys": ["alt+1"], "command": "select_by_index", "args": { "index": 0 } },
 
@@ -50,14 +68,12 @@
 	{ "keys": ["alt+down"], "command": "run_macro_file", "args": {"file": "Packages/User/5rowsdown.sublime-macro"} },
 	{ "keys": ["alt+up"], "command": "run_macro_file", "args": {"file": "Packages/User/5rowsup.sublime-macro"} },
 
-	{
-		"keys": [ "ctrl+shift+f12" ],
+	{ "keys": [ "ctrl+shift+super+right" ],
 		"args": { "action": "select_next_item" },
 		"command": "run_emmet_action",
 		"context": [{ "key": "emmet_action_enabled.select_next_item" }]
 	},
-	{
-		"keys": [ "ctrl+shift+f11" ],
+	{ "keys": [ "ctrl+shift+super+left" ],
 		"args": { "action": "select_previous_item" },
 		"command": "run_emmet_action",
 		"context": [{ "key": "emmet_action_enabled.select_previous_item" }]
@@ -72,7 +88,6 @@
 		"command": "run_emmet_action",
 		"context": [{ "key": "emmet_action_enabled.match_pair_inward" }]
 	},
-
 	{ "keys": ["ctrl+alt+shift+left"],
 		"args": {"action": "prev_edit_point"},
 		"command": "run_emmet_action",
@@ -83,10 +98,13 @@
 		"command": "run_emmet_action",
 		"context": [{"key": "emmet_action_enabled.next_edit_point" }]
 	},
-
 	{ "keys": ["ctrl+'"],
 		"args": {"action": "encode_decode_data_url"},
 		"command": "run_emmet_action",
 		"context": [{"key": "emmet_action_enabled.encode_decode_data_url"}]
-	}
+	},
+
+	{ "keys": ["ctrl+alt+r", "ctrl+alt+r"], "command": "reload_themes" },
+	{ "keys": ["ctrl+alt+c", "ctrl+alt+c"], "command": "cycle_themes", "args": {"d": 1} },
+	{ "keys": ["ctrl+alt+0", "ctrl+alt+0"], "command": "switch_theme", "args": { "t": "Default.sublime-theme" } }
 ]

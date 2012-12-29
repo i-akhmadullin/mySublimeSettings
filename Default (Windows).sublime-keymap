@@ -1,10 +1,15 @@
 [
 	{ "keys": ["f1"], "command": "toggle_side_bar" },
+	{ "keys": ["f4"], "command": "toggle_minimap" },
+	{ "keys": ["ctrl+shift+f2"], "command": "side_bar_rename" },
 	{ "keys": ["ctrl+shift+alt+o"], "command": "open_in_browser" },
 	// { "keys": ["ctrl+shift+alt+o"], "command": "side_bar_open_in_browser" },
 	{ "keys": ["ctrl+shift+alt+r"], "command": "side_bar_reveal" },
+	{ "keys": ["ctrl+shift+alt+f1"], "command": "upper_case" },
+	{ "keys": ["ctrl+shift+alt+f2"], "command": "lower_case" },
 	{ "keys": ["ctrl+shift+alt+f3"], "command": "title_case" },
 	{ "keys": ["ctrl+shift+alt+f4"], "command": "swap_case" },
+	{ "keys": ["ctrl+alt+shift+f5"], "command": "typograph_text" },
 	{ "keys": ["ctrl+shift+`"], "command": "reopen_last_file" },
 
 	{ "keys": ["alt+shift+left"], "command": "set_layout",
@@ -81,5 +86,6 @@
 		"args": {"action": "encode_decode_data_url"},
 		"command": "run_emmet_action",
 		"context": [{"key": "emmet_action_enabled.encode_decode_data_url"}]
-	}
+	},
+	{ "keys": ["ctrl+shift+alt+f"], "command": "reindent" }
 ]
