@@ -9,6 +9,7 @@
 	{ "keys": ["ctrl+shift+alt+f2"], "command": "lower_case" },
 	{ "keys": ["ctrl+shift+alt+f3"], "command": "title_case" },
 	{ "keys": ["ctrl+shift+alt+f4"], "command": "swap_case" },
+	{ "keys": ["ctrl+alt+shift+f5"], "command": "typograph_text" },
 	{ "keys": ["ctrl+shift+`"], "command": "reopen_last_file" },
 
 	{ "keys": ["f16"], "command": "set_layout",
@@ -79,21 +80,21 @@
 		"context": [{ "key": "emmet_action_enabled.select_previous_item" }]
 	},
 	{ "keys": [ "ctrl+alt+shift+up" ],
-		"args": { "action": "match_pair_outward" }, 
-		"command": "run_emmet_action", 
+		"args": { "action": "match_pair_outward" },
+		"command": "run_emmet_action",
 		"context": [{ "key": "emmet_action_enabled.match_pair_outward" }]
 	},
 	{ "keys": [ "ctrl+alt+shift+down" ],
-		"args": { "action": "match_pair_inward" }, 
+		"args": { "action": "match_pair_inward" },
 		"command": "run_emmet_action",
 		"context": [{ "key": "emmet_action_enabled.match_pair_inward" }]
 	},
-	{ "keys": ["ctrl+alt+shift+left"],
+	{ "keys": ["ctrl+alt+shift+pageup"],
 		"args": {"action": "prev_edit_point"},
 		"command": "run_emmet_action",
 		"context": [{"key": "emmet_action_enabled.prev_edit_point" }]
 	},
-	{ "keys": ["ctrl+alt+shift+right"],
+	{ "keys": ["ctrl+alt+shift+pagedown"],
 		"args": {"action": "next_edit_point"},
 		"command": "run_emmet_action",
 		"context": [{"key": "emmet_action_enabled.next_edit_point" }]
@@ -106,5 +107,7 @@
 
 	{ "keys": ["ctrl+alt+r", "ctrl+alt+r"], "command": "reload_themes" },
 	{ "keys": ["ctrl+alt+c", "ctrl+alt+c"], "command": "cycle_themes", "args": {"d": 1} },
-	{ "keys": ["ctrl+alt+0", "ctrl+alt+0"], "command": "switch_theme", "args": { "t": "Default.sublime-theme" } }
+	{ "keys": ["ctrl+alt+0", "ctrl+alt+0"], "command": "switch_theme", "args": { "t": "Default.sublime-theme" } },
+
+	{"keys": ["ctrl+alt+shift+t"], "command": "toggle_setting", "args": {"setting": "vintage_lines.force_mode"}}
 ]

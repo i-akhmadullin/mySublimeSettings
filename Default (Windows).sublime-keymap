@@ -1,6 +1,6 @@
 [
 	{ "keys": ["f1"], "command": "toggle_side_bar" },
-	{ "keys": ["f4"], "command": "toggle_minimap" },
+	{ "keys": ["shift+f1"], "command": "toggle_minimap" },
 	{ "keys": ["ctrl+shift+f2"], "command": "side_bar_rename" },
 	{ "keys": ["ctrl+shift+alt+o"], "command": "open_in_browser" },
 	// { "keys": ["ctrl+shift+alt+o"], "command": "side_bar_open_in_browser" },
@@ -50,34 +50,34 @@
 	{ "keys": ["alt+up"], "command": "run_macro_file", "args": {"file": "Packages/User/5rowsup.sublime-macro"} },
 
 	{
-		"keys": [ "ctrl+shift+f12" ],
+		"keys": [ "ctrl+alt+shift+right" ],
 		"args": { "action": "select_next_item" },
 		"command": "run_emmet_action",
 		"context": [{ "key": "emmet_action_enabled.select_next_item" }]
 	},
 	{
-		"keys": [ "ctrl+shift+f11" ],
+		"keys": [ "ctrl+alt+shift+left" ],
 		"args": { "action": "select_previous_item" },
 		"command": "run_emmet_action",
 		"context": [{ "key": "emmet_action_enabled.select_previous_item" }]
 	},
 	{ "keys": [ "ctrl+alt+shift+up" ],
-		"args": { "action": "match_pair_outward" }, 
-		"command": "run_emmet_action", 
+		"args": { "action": "match_pair_outward" },
+		"command": "run_emmet_action",
 		"context": [{ "key": "emmet_action_enabled.match_pair_outward" }]
 	},
 	{ "keys": [ "ctrl+alt+shift+down" ],
-		"args": { "action": "match_pair_inward" }, 
+		"args": { "action": "match_pair_inward" },
 		"command": "run_emmet_action",
 		"context": [{ "key": "emmet_action_enabled.match_pair_inward" }]
 	},
 
-	{ "keys": ["ctrl+alt+shift+left"],
+	{ "keys": ["ctrl+alt+shift+pageup"],
 		"args": {"action": "prev_edit_point"},
 		"command": "run_emmet_action",
 		"context": [{"key": "emmet_action_enabled.prev_edit_point" }]
 	},
-	{ "keys": ["ctrl+alt+shift+right"],
+	{ "keys": ["ctrl+alt+shift+pagedown"],
 		"args": {"action": "next_edit_point"},
 		"command": "run_emmet_action",
 		"context": [{"key": "emmet_action_enabled.next_edit_point" }]
@@ -87,5 +87,10 @@
 		"command": "run_emmet_action",
 		"context": [{"key": "emmet_action_enabled.encode_decode_data_url"}]
 	},
-	{ "keys": ["ctrl+shift+alt+f"], "command": "reindent" }
+
+	{ "keys": ["ctrl+alt+r", "ctrl+alt+r"], "command": "reload_themes" },
+	{ "keys": ["ctrl+alt+c", "ctrl+alt+c"], "command": "cycle_themes", "args": {"d": 1} },
+	{ "keys": ["ctrl+alt+0", "ctrl+alt+0"], "command": "switch_theme", "args": { "t": "Default.sublime-theme" } },
+
+	{"keys": ["ctrl+alt+shift+t"], "command": "toggle_setting", "args": {"setting": "vintage_lines.force_mode"}}
 ]
