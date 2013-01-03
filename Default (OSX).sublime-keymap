@@ -4,7 +4,8 @@
 	{ "keys": ["ctrl+shift+f2"], "command": "side_bar_rename" },
 	{ "keys": ["ctrl+shift+alt+o"], "command": "open_in_browser" },
 	// { "keys": ["ctrl+shift+alt+o"], "command": "side_bar_open_in_browser" },
-	{ "keys": ["ctrl+shift+alt+r"], "command": "side_bar_reveal" },
+	{ "keys": ["ctrl+shift+alt+r"], "command": "reveal_in_side_bar" },
+	{ "keys": ["ctrl+shift+alt+r", "ctrl+shift+alt+r"], "command": "side_bar_reveal" },
 	{ "keys": ["ctrl+shift+alt+f1"], "command": "upper_case" },
 	{ "keys": ["ctrl+shift+alt+f2"], "command": "lower_case" },
 	{ "keys": ["ctrl+shift+alt+f3"], "command": "title_case" },
@@ -109,5 +110,30 @@
 	{ "keys": ["ctrl+alt+c", "ctrl+alt+c"], "command": "cycle_themes", "args": {"d": 1} },
 	{ "keys": ["ctrl+alt+0", "ctrl+alt+0"], "command": "switch_theme", "args": { "t": "Default.sublime-theme" } },
 
-	{"keys": ["ctrl+alt+shift+t"], "command": "toggle_setting", "args": {"setting": "vintage_lines.force_mode"}}
+	{"keys": ["ctrl+alt+shift+t"], "command": "toggle_setting", "args": {"setting": "vintage_lines.force_mode"}},
+
+	/* clickable url */
+	{ "keys": ["ctrl+alt+shift+enter"], "command": "open_url" },
+
+	/* standard keys to remind myself */
+	{ "keys": ["ctrl+l"], "command": "expand_selection", "args": {"to": "line"} },
+	{ "keys": ["ctrl+shift+space"], "command": "expand_selection", "args": {"to": "scope"} },
+	{ "keys": ["ctrl+shift+m"], "command": "expand_selection", "args": {"to": "brackets"} },
+	{ "keys": ["ctrl+m"], "command": "move_to", "args": {"to": "brackets"} },
+	{ "keys": ["ctrl+shift+j"], "command": "expand_selection", "args": {"to": "indentation"} },
+	{ "keys": ["ctrl+shift+a"], "command": "expand_selection", "args": {"to": "tag"} },
+
+	{ "keys": ["alt+."], "command": "close_tag" },
+
+	{ "keys": ["ctrl+p"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+	{ "keys": ["ctrl+shift+p"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
+	{ "keys": ["ctrl+alt+p"], "command": "prompt_select_project" },
+	{ "keys": ["ctrl+r"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
+	{ "keys": ["ctrl+g"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
+	{ "keys": ["ctrl+;"], "command": "show_overlay", "args": {"overlay": "goto", "text": "#"} },
+
+	{ "keys": ["ctrl+g"], "command": "move_caret" },
+
+	{ "keys": ["ctrl+f6", "<character>"], "command": "sublime_jump", "args": {"select_text": false} },
+	{ "keys": ["ctrl+shift+f6", "<character>"], "command": "sublime_jump", "args": {"select_text": true} }
 ]

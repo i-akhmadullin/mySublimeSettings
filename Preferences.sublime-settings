@@ -36,7 +36,8 @@
 		"iTodo",
 		"Live CSS",
 		"CSSTidy",
-		"LESS-build"
+		"LESS-build",
+		"Less2Css"
 	],
 	"indent_guide_options":
 	[
