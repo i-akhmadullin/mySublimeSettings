@@ -37,8 +37,15 @@
 		"Live CSS",
 		"CSSTidy",
 		"LESS-build",
-		"Less2Css"
+		"Less2Css",
+		"GitGutter",
+		"LiveReload",
+		"SublimeCodeIntel"
 	],
+
+	// Makes tabs with modified files more visible
+	"highlight_modified_tabs": true,
+
 	"indent_guide_options":
 	[
 		"draw_active"

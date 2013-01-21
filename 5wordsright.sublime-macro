@@ -1,0 +1,42 @@
+[
+	{
+		"args":
+		{
+			"by": "subwords",
+			"forward": true
+		},
+		"command": "move"
+	},
+	{
+		"args":
+		{
+			"by": "subwords",
+			"forward": true
+		},
+		"command": "move"
+	},
+	{
+		"args":
+		{
+			"by": "subwords",
+			"forward": true
+		},
+		"command": "move"
+	},
+	{
+		"args":
+		{
+			"by": "subwords",
+			"forward": true
+		},
+		"command": "move"
+	},
+	{
+		"args":
+		{
+			"by": "subwords",
+			"forward": true
+		},
+		"command": "move"
+	}
+]
