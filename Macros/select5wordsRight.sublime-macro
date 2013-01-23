@@ -1,0 +1,47 @@
+[
+	{
+		"args":
+		{
+			"by": "subwords",
+			"forward": true,
+			"extend": true
+		},
+		"command": "move"
+	},
+	{
+		"args":
+		{
+			"by": "subwords",
+			"forward": true,
+			"extend": true
+		},
+		"command": "move"
+	},
+	{
+		"args":
+		{
+			"by": "subwords",
+			"forward": true,
+			"extend": true
+		},
+		"command": "move"
+	},
+	{
+		"args":
+		{
+			"by": "subwords",
+			"forward": true,
+			"extend": true
+		},
+		"command": "move"
+	},
+	{
+		"args":
+		{
+			"by": "subwords",
+			"forward": true,
+			"extend": true
+		},
+		"command": "move"
+	}
+]
