@@ -17,7 +17,7 @@
 	{ "keys": ["alt+1"],             "command": "select_by_index", "args": { "index": 0 } },
 
 
-	/* scroll by 5 lines */
+	/* scroll by 10 lines */
 	{ "keys": ["alt+="], "command": "scroll_lines", "args": {"amount": 10.0} },
 	{ "keys": ["alt+-"], "command": "scroll_lines", "args": {"amount": -10.0} },
 	/* move cursor by 5 lines/subwords in every direction */
@@ -159,7 +159,7 @@
 	/* open preferencies mac-style */
 	{ "keys": ["super+,"],      "command": "open_file", "args": {"file": "${packages}/Default/Preferences.sublime-settings"} },
 	{ "keys": ["ctrl+super+,"], "command": "open_file", "args": {"file": "${packages}/User/Preferences.sublime-settings"} },
-	/* open platform-specific keymaps */
+
 	{ "keys": ["super+."],      "command": "open_file", "args": {"file": "${packages}/Default/Default ($platform).sublime-keymap"} },
-	{ "keys": ["ctrl+super+."], "command": "open_file", "args": {"file": "${packages}/User/Default ($platform).sublime-keymap"} }
+	{ "keys": ["ctrl+super+."], "command": "open_file", "args": {"file": "${packages}/User/Default.sublime-keymap"} }
 ]

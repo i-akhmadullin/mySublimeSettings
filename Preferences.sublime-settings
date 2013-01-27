@@ -2,7 +2,7 @@
 	"auto_id_class": true,
 	"bold_folder_labels": true,
 	"caret_style": "phase",
-	"color_scheme": "Packages/Theme - Refined/Color Schemes/Tomorrow Night Refined.tmTheme",
+	"color_scheme": "Packages/Solarized Color Scheme/Solarized (dark).tmTheme",
 	"detect_slow_plugins": false,
 	"draw_indent_guides": true,
 	"draw_white_space": "all",
@@ -43,16 +43,20 @@
 		"Less2Css",
 		"GitGutter",
 		"LiveReload",
-		"SublimeCodeIntel"
+		"SublimeCodeIntel",
+		"GotoTab"
 	],
 	"indent_guide_options":
 	[
 		"draw_active"
 	],
 	"open_files_in_new_window": false,
+	"margin": 0,
+	"match_brackets_angle": true,
 	"save_on_focus_lost": false,
+	"shift_tab_unindent": true,
 	"show_tab_close_buttons": false,
 	"tab_size": 4,
-	"theme": "Refined-Dark.sublime-theme",
+	"theme": "Soda Dark.sublime-theme",
 	"word_wrap": "false"
 }
