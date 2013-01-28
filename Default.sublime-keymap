@@ -110,36 +110,33 @@
 	]},
 
 
-	/* emmet navigation */
-	{ "keys": [ "super+alt+shift+right" ],
+	/* win-mac consistent emmet navigation */
+	{ "keys": [ "ctrl+alt+super+right" ],
 		"args": { "action": "select_next_item" },
 		"command": "run_emmet_action",
 		"context": [{ "key": "emmet_action_enabled.select_next_item" }]},
-
-	{ "keys": [ "super+alt+shift+left" ],
+	{ "keys": [ "ctrl+alt+super+left" ],
 		"args": { "action": "select_previous_item" },
 		"command": "run_emmet_action",
 		"context": [{ "key": "emmet_action_enabled.select_previous_item" }]},
 
-	{ "keys": [ "super+alt+shift+up" ],
-		"args": { "action": "match_pair_outward" },
-		"command": "run_emmet_action",
-		"context": [{ "key": "emmet_action_enabled.match_pair_outward" }]},
-
-	{ "keys": [ "super+alt+shift+down" ],
-		"args": { "action": "match_pair_inward" },
-		"command": "run_emmet_action",
-		"context": [{ "key": "emmet_action_enabled.match_pair_inward" }]},
-
-	{ "keys": [ "super+alt+shift+pageup" ],
+	{ "keys": [ "ctrl+alt+super+up" ],
 		"args": {"action": "prev_edit_point"},
 		"command": "run_emmet_action",
 		"context": [{"key": "emmet_action_enabled.prev_edit_point" }]},
-
-	{ "keys": [ "super+alt+shift+pagedown" ],
+	{ "keys": [ "ctrl+alt+super+down" ],
 		"args": {"action": "next_edit_point"},
 		"command": "run_emmet_action",
 		"context": [{"key": "emmet_action_enabled.next_edit_point" }]},
+
+	{ "keys": [ "ctrl+alt+super+pageup" ],
+		"args": { "action": "match_pair_outward" },
+		"command": "run_emmet_action",
+		"context": [{ "key": "emmet_action_enabled.match_pair_outward" }]},
+	{ "keys": [ "ctrl+alt+super+pagedown" ],
+		"args": { "action": "match_pair_inward" },
+		"command": "run_emmet_action",
+		"context": [{ "key": "emmet_action_enabled.match_pair_inward" }]},
 
 
 
