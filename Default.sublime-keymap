@@ -43,21 +43,21 @@
 		"cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
 	}},
 	{ "keys": ["f10"], "command": "set_layout", "args": {
+		"cols":  [0.0, 0.66, 1.0],
+		"rows":  [0.0, 1.0],
+		"cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+	}},
+	{ "keys": ["shift+f10"], "command": "set_layout", "args": {
 		"cols":  [0.0, 0.33, 1.0],
 		"rows":  [0.0, 1.0],
 		"cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
 	}},
 	{ "keys": ["f11"], "command": "set_layout", "args": {
 		"cols":  [0.0, 0.66, 1.0],
-		"rows":  [0.0, 1.0],
-		"cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
-	}},
-	{ "keys": ["f12"], "command": "set_layout", "args": {
-		"cols":  [0.0, 0.66, 1.0],
 		"rows":  [0.0, 0.8, 1.0],
 		"cells": [[0, 0, 1, 1], [1, 0, 2, 1], [0, 1, 2, 2]]
 	}},
-	{ "keys": ["shift+f12"], "command": "set_layout", "args": {
+	{ "keys": ["shift+f11"], "command": "set_layout", "args": {
 		"cols":  [0.0, 0.33, 1.0],
 		"rows":  [0.0, 0.8, 1.0],
 		"cells": [[0, 0, 1, 1], [1, 0, 2, 1], [0, 1, 2, 2]]
