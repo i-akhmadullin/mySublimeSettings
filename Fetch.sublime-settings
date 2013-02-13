@@ -1,22 +1,22 @@
 {
 	"files":
 	{
-		"box-sizing-polyfill": "https://raw.github.com/Schepp/box-sizing-polyfill/master/boxsizing.htc",
-		"hammer.js": "https://raw.github.com/EightMedia/hammer.js/master/hammer.js",
+		"box-sizing-polyfill": "http://raw.github.com/Schepp/box-sizing-polyfill/master/boxsizing.htc",
+		"hammer.js": "http://raw.github.com/EightMedia/hammer.js/master/hammer.js",
 		"jquery-placeholder": "http://raw.github.com/mathiasbynens/jquery-placeholder/master/jquery.placeholder.min.js",
+		"jquery-validation": "http://raw.github.com/jzaefferer/jquery-validation/master/jquery.validate.js",
 		"jquery.min": "http://code.jquery.com/jquery.min.js",
 		"masked-input": "http://raw.github.com/digitalBush/jquery.maskedinput/master/src/jquery.maskedinput.js",
-		"masonry": "https://raw.github.com/desandro/masonry/master/jquery.masonry.js",
-		"normalize": "https://raw.github.com/necolas/normalize.css/master/normalize.css",
-		"pjax": "https://raw.github.com/defunkt/jquery-pjax/master/jquery.pjax.js",
-		"respond.js": "https://raw.github.com/scottjehl/Respond/master/respond.min.js",
+		"masonry": "http://raw.github.com/desandro/masonry/master/jquery.masonry.js",
+		"normalize": "http://raw.github.com/necolas/normalize.css/master/normalize.css",
+		"pjax": "http://raw.github.com/defunkt/jquery-pjax/master/jquery.pjax.js",
+		"respond.js": "http://raw.github.com/scottjehl/Respond/master/respond.min.js",
 		"zepto.min": "http://zeptojs.com/zepto.min.js"
 	},
 	"packages":
 	{
 		"html5-boilerplate": "https://github.com/h5bp/html5-boilerplate/zipball/master",
 		"jam-boilerplate": "https://github.com/jetstyle/jam-boilerplate/zipball/master",
-		"jam-boilerplate:reload": "https://github.com/jetstyle/jam-boilerplate/zipball/reload",
-		"my_jam-boilerplate": "https://github.com/i-akhmadullin/jam-boilerplate/zipball/master"
+		"my-boilerplate": "https://github.com/i-akhmadullin/jam-boilerplate/zipball/master"
 	}
 }

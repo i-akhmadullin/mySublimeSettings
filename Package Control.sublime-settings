@@ -4,7 +4,9 @@
 	[
 		"AAAPackageDev",
 		"AdvancedNewFile",
+		"Alignment",
 		"All Autocomplete",
+		"ApacheConf.tmLanguage",
 		"ASPComment",
 		"Auto Semi-Colon",
 		"AutoFileName",
@@ -26,6 +28,7 @@
 		"GotoRecent",
 		"HTML2Haml",
 		"HyperlinkHelper",
+		"INI",
 		"iTodo",
 		"Jade",
 		"Jasmine",
@@ -51,11 +54,12 @@
 		"SCSS",
 		"SFTP",
 		"SideBarEnhancements",
+		"Snake",
 		"Solarized Color Scheme",
 		"SortTabs",
 		"Stylus",
 		"sublime-BuildSwitcher",
-		"Sublime-CSS",
+		"Sublime-CSS3",
 		"Sublime-HTMLPrettify",
 		"SublimeCodeIntel",
 		"SublimeJump",
@@ -84,9 +88,9 @@
 		"https://github.com/titoBouzout/SideBarEnhancements",
 		"https://github.com/sergeche/emmet-sublime",
 		"https://github.com/vojtajina/sublime-BuildSwitcher",
-		"https://github.com/i-akhmadullin/Sublime-CSS",
 		"https://github.com/matiaspub/WheelChanger",
 		"https://github.com/SublimeText/jQuery",
-		"https://github.com/tednaleid/SublimeJump"
+		"https://github.com/tednaleid/SublimeJump",
+		"https://github.com/i-akhmadullin/Sublime-CSS3"
 	]
 }
