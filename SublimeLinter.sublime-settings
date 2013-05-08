@@ -5,6 +5,7 @@
  * @see     http://www.jshint.com/docs/
  */
 {
+
   "jshint_options":
     {
       /*
@@ -27,9 +28,20 @@
       ],
 
       // EcmaScript 5.
-      "es5":          false, // Allow EcmaScript 5 syntax.
+      "es5":          true, // Allow EcmaScript 5 syntax.
       "globalstrict": false, // Allow global "use strict" (also enables 'strict').
-      "strict":       true,  // Require `use strict` pragma  in every file.
+      "strict":       false,  // Require `use strict` pragma  in every file.
+
+      // To fix column positions for JSHint errors you may want to add `"indent": 1` to your
+      // **User** "jshint_options". This issue affects users with tabs for indentation.
+      // This fix was reverted due to a conflict with using the `"white": true` option.
+      // "indent":    1,
+      "evil":      true,
+      "regexdash": true,
+      "browser":   true,
+      "wsh":       true,
+      "trailing":  true,
+      "sub":       true,
 
       /*
        * ENFORCING OPTIONS
@@ -47,7 +59,7 @@
       "eqnull": true,
 
       // Enforce tab width of 4 spaces.
-      "indent": 4,
+      // "indent": 4,
 
       // Prohibit use of a variable before it is defined.
       "latedef": true,

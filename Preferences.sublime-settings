@@ -17,36 +17,35 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Git",
-		"LiveReload",
-		"Vintage",
-		"CoffeeCompile",
-		"Terminal",
-		"Todo.txt Syntax",
-		"Git Gutter",
-		"sublime-BuildSwitcher",
 		"AAAPackageDev",
+		"All Autocomplete",
+		"Todo.txt Syntax",
+		"CSSTidy",
+		"Markdown Preview",
+		"Auto Semi-Colon",
 		"GotoTab",
 		"ZenCoding",
-		"SFTP",
-		"CoffeeScript",
-		"Snake",
-		"GitGutter",
 		"SyncedSideBar",
-		"SublimeTODO",
-		"Markdown Preview",
-		"HTML2Haml",
-		"HtmlTidy",
-		"CSSLint",
-		"base64-fold",
-		"SublimeCodeIntel",
-		"kriswill-sublime-text-jsbeautifier",
-		"JsMinifier",
 		"Live CSS",
-		"CSSTidy",
-		"Less2Css",
+		"LESS-build",
+		"CSSLint",
+		"kriswill-sublime-text-jsbeautifier",
+		"SublimeCodeIntel",
+		"SFTP",
+		"SublimeTODO",
+		"base64-fold",
+		"HTML2Haml",
+		"LiveReload",
+		"Vintage",
+		"Git",
+		"Terminal",
+		"CoffeeCompile",
+		"HtmlTidy",
+		"sublime-BuildSwitcher",
 		"iTodo",
-		"LESS-build"
+		"Snake",
+		"JsMinifier",
+		"GitGutter"
 	],
 	"indent_guide_options":
 	[
@@ -60,5 +59,13 @@
 	"show_tab_close_buttons": false,
 	"tab_size": 4,
 	"theme": "Nexus.sublime-theme",
-	"word_wrap": "false"
+	"word_wrap": "false",
+
+	/* tern-for-sublime */
+	"auto_complete": true,
+	"auto_complete_triggers": [
+		{"selector": "text.html", "characters": "<"},
+		{"selector": "source.js", "characters": "."}
+	],
+	"tern_argument_hints": true
 }

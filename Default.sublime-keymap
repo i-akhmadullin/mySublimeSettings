@@ -14,7 +14,9 @@
 	{ "keys": ["ctrl+shift+alt+f"],  "command": "reindent" },
 	{ "keys": ["ctrl+shift+`"],      "command": "reopen_last_file" },
 
-	{ "keys": ["alt+1"],             "command": "select_by_index", "args": { "index": 0 } },
+	// { "keys": ["alt+1"],             "command": "select_by_index", "args": { "index": 0 } },
+
+	{ "keys": ["ctrl+shift+§"], "command": "focus_side_bar" },
 
 	/* scroll by 10 lines */
 	{ "keys": ["alt+="], "command": "scroll_lines", "args": {"amount": 10.0} },
@@ -81,7 +83,7 @@
 	{ "keys": ["ctrl+shift+f6", "<character>"], "command": "sublime_jump", "args": {"select_text": true} },
 
 	/* emmet - toggle base64 */
-	{ "keys": ["ctrl+'"],
+	{ "keys": ["ctrl+alt+shift+'"],
 		"args": {"action": "encode_decode_data_url"},
 		"command": "run_emmet_action",
 		"context": [{"key": "emmet_action_enabled.encode_decode_data_url"}]
@@ -110,6 +112,11 @@
 
 
 	/* win-mac consistent emmet navigation */
+	{ "keys": [ "shift+super+." ],
+		"args": { "action": "select_next_item" },
+		"command": "run_emmet_action",
+		"context": [{ "key": "emmet_action_enabled.select_next_item" }]},
+
 	{ "keys": [ "ctrl+alt+super+right" ],
 		"args": { "action": "select_next_item" },
 		"command": "run_emmet_action",
@@ -137,11 +144,11 @@
 		"command": "run_emmet_action",
 		"context": [{ "key": "emmet_action_enabled.match_pair_inward" }]},
 
-
-	/* normalize some keymaps */
+	/* normalize win-mac keymaps */
 	{ "keys": ["ctrl+p"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
 	{ "keys": ["ctrl+shift+p"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
 	{ "keys": ["ctrl+alt+p"], "command": "prompt_select_project" },
+	{ "keys": ["f12"], "command": "goto_definition" },
 
 	/* standard keys just to remind myself */
 	{ "keys": ["ctrl+l"],           "command": "expand_selection", "args": {"to": "line"} },
@@ -155,6 +162,11 @@
 	{ "keys": ["ctrl+g"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
 	{ "keys": ["ctrl+;"], "command": "show_overlay", "args": {"overlay": "goto", "text": "#"} },
 
+	{ "keys": ["ctrl+alt+."], "command": "tern_jump_to_def",
+		"context": [{ "key": "selector", "operand": "source.js" }] },
+	{ "keys": ["ctrl+alt+,"], "command": "tern_jump_back",
+		"context": [{ "key": "selector", "operand": "source.js" }] },
+
 
 	/* open preferencies mac-style */
 	{ "keys": ["super+,"],      "command": "open_file", "args": {"file": "${packages}/Default/Preferences.sublime-settings"} },
@@ -163,3 +175,4 @@
 	{ "keys": ["super+."],      "command": "open_file", "args": {"file": "${packages}/Default/Default ($platform).sublime-keymap"} },
 	{ "keys": ["ctrl+super+."], "command": "open_file", "args": {"file": "${packages}/User/Default.sublime-keymap"} }
 ]
+
